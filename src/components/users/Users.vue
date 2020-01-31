@@ -304,9 +304,7 @@ export default {
       this.$message.success('删除用户成功！')
       this.getUserList()
     }
-  },
-  closeOnClickModal: false,
-  distinguishCancelAndClose: false
+  }
 }
 </script>
 
