@@ -5,6 +5,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  min-width: 1366px;
 }
 
 .el-breadcrumb {
@@ -27,4 +28,13 @@ body,
 
 .el-pagination {
   margin-top: 15px;
+}
+
+.el-form-item__label {
+  padding: 0;
+}
+
+.el-input {
+  width: 90%;
+  margin: 0 20px 0 12px;
 }
